@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!-- The purpose of this site is to test the layout to be used in the update portfolio website -->
+<!-- The main body has 3 columns, and within the middle column is a button to shrink/remove the leftmost column -->
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Me</title>
+</head>
+<body>
+<div class="header">
+</div>
+<div class="row">
+	<div class="column1" id="column1">
+		<div id="links">
+			<p><a href="ResumeDanielByrd.pdf" class="NavButton">View My Resume</a></p>
+			<p><a href="index.html" class="NavButton">About</a></p>
+			<p><a href="professionalProjects.html" class="NavButton">Work Projects</a></p>
+			<p><a href="personalProjects.html" class="NavButton">Personal Projects</a></p>
+		</div>
+	</div>
+	<div class="column2">
+		<button id="NavToggle" class="NavToggleButton" onclick="toggleNav()">&#9776;</button>
+	</div>
+	<div class="column3" id="column3">
+		<h1>About me</h1>
+		<h3>Introductions</h3>
+		<p>Hey there, my name is Daniel Byrd.  I'm a Help Desk Analyst, Programmer, Digital Artist, currently trying to learn music theory, and all around big nerd.  I was born in South Carolina in 1999 and have been living here ever since.  I have a sister and two loving parents.
+		I got my general education at Blue Ridge Middle/High School and have an associates degree in Computer Science that I recieved from Greenville Technical College.</p>
+		<p>Since recieving my degree, I have worked through thousands of help desk tickets helping both Pomeroy and UMB, providing direct support to end-users via phone, email, and direct messaging.  At the same time I have also been trying to develop my own skills in other technologies and programs for my own personal projects and hopefully even some professional projects.</p>
+		<br/>
+		<h3>Skills</h3>
+		<P>Programming Languages: C#, Java, HTML, CSS, SQL, PHP, ASP.NET, JavaScript</p>
+		<P>Tools: Service Now, Microsoft Office Word, Excel, and Powerpoint, SQL Reporting Services, and SQL Integration Services</p>
+		<br/>
+		<h3>Job History</h3>
+		<P>Service Desk Analyst at Pomeroy (January 2020 - Present)</p>
+		<P> -Job Description: Assisting clients and associates overcome a wide variety of technical issues ranging from locked accounts, programs not responding, to much more</p>
+		<br/>
+		<P>Computer Programmer Intern at Budget Ninjas, LLC (June 2019 - August 2019)</p>
+		<p> -Job Description: Help create, modify, and manage new features for the Budget Ninjas website</p>
+		<br/>
+		<h3>Education</h3>
+		<P>Greenville Technical College (2017-2019) - Associates degree in computer science (programming concentration)</p>
+		<P>-Two-time winner of the President's award and three-time winner of the Dean's list</p>
+		<P>Various LinkedIn Learning Courses</p>
+		<P>-These range from training in C#, ASP.net, to SQL and its various tools, and even a few random items such as Audacity and GameMaker Studio</p>
+	
+	</div>
+</div>
+<div class="footer"><p>(864) 363-7021  |  daniel.byrd2@charter.net  |  <a href="https://www.linkedin.com/in/daniel-byrd-090004170/">Find me on LinkedIn</a></p></div>
+
+
+<!-- Here begins JavaScript -->
+<script>
+var isActive = true;
+//used to toggle the first column between a visible state and a invisible state
+function toggleNav() {
+	var sideBar = document.getElementById("column1");
+	var navToggle = document.getElementById("NavToggle");
+	var contentPart = document.getElementById("column3");
+	var links = document.getElementById("links");
+	//var navButtons = document.getElementsByClassName("NavButton");
+	if (isActive) {
+		isActive = false;
+		sideBar.style.width = "0px";
+		contentPart.style.width = "98%";
+		setTimeout(hideLinks, 500);
+		//links.style.display = "none";
+	} else {
+		isActive = true;
+		sideBar.style.width = "16%";
+		contentPart.style.width = "82%";
+		links.style.display = "initial";
+	}
+}
+
+function hideLinks() {
+	links.style.display = "none";
+}
+</script>
+<!-- Here ends JavaScript -->
+</body>
+</html>
