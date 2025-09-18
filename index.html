@@ -1,92 +1,20 @@
-<!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" href="styles.css">
-<link rel="icon" href="favicon.ico" type="image/x-icon" />
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>About Me</title>
-</head>
-<body>
-<div class="header">
-</div>
-<div class="row">
-	<div class="column1" id="column1">
-		<div id="links">
-			<p><a href="ResumeDanielByrd.pdf" class="NavButton">View My Resume</a></p>
-			<p><a href="index.html" class="NavButton">About</a></p>
-			<p><a href="professionalProjects.html" class="NavButton">Work Projects</a></p>
-			<p><a href="personalProjects.html" class="NavButton">Personal Projects</a></p>
-		</div>
-	</div>
-	<div class="column2">
-		<button id="NavToggle" class="NavToggleButton" onclick="toggleNav()">&#9776;</button>
-	</div>
-	<div class="column3" id="column3">
-		<h1>About me</h1>
-		<h3>Introductions</h3>
-		<p>Hey there, my name is Daniel Byrd.  I'm a Data Analyst, Help Desk Analyst, Programmer, and Digital Artist.  I was born in South Carolina in 1999 and have been living here ever since.  I have a sister and two loving parents.
-		I got my general education at Blue Ridge Middle/High School and have an associates degree in Computer Science that I received from Greenville Technical College.</p>
-		<p>After receiving my degree, I have worked through thousands of help desk tickets helping both Pomeroy and UMB, providing direct support to end-users via phone, email, and direct messaging.  
-		At the same time I have also been trying to develop my own skills in other technologies and programs for my own personal projects and hopefully even some professional projects.</p>
-		<p>After my time working at Pomeroy, I have begun to learn and master the skills needed to become a Data Analyst, and have already learned how to use various tools and languages to assist in this process.</p>
-		<br/>
-		<h3>Skills</h3>
-		<P>Programming Languages: C#, Java, HTML, CSS, SQL, PHP, ASP.NET, JavaScript, Python</p>
-		<P>Tools: Power BI, Looker Studio, Service Now, Microsoft Office Word, Excel, and PowerPoint, SQL Reporting Services, and SQL Integration Services</p>
-		<p>Programming Libaries Learned: Matplotlib, NumPy, Pandas, Seaborn, PyWaffle, Folium, Plotly, Dash, PySpark</p>
-		<br/>
-		<h3>Professional History</h3>
-		<p>IBM Data Analyst Specialization (December 2023 - February 2024)</p>
-		<p class="InText">-Completed training for gathering, cleaning, organizing, analyzing, and visualizing data in various forms</p>
-		<p class="InText">-Learned how to use various tools such as Excel, Pivot Tables, PowerPoint, SQL, Python, Pandas, NumPy, Matplotlib, Seaborn, and more</p>		
-		<br/>
-		<P>Service Desk Analyst at Pomeroy (January 2020 - October 2023)</p>
-		<p class="InText">-Job Description: Assisting clients and associates overcome a wide variety of technical issues ranging from locked accounts, programs not responding, to much more</p>
-		<p class="InText">-Had worked through over 12,000 issues, created multiple knowledge base articles, and created a HTML application that can quickly create and store incident tickets and templates</p>
-		<br/>
-		<P>Various LinkedIn Learning Courses (June 2019 - December 2019)</p>
-		<p class="InText">-These range from training in C#, ASP.net, to SQL and its various tools, and even a few random items such as Audacity and GameMaker Studio</p>		
-		<br/>
-		<P>Computer Programmer Intern at Budget Ninjas, LLC (June 2019 - August 2019)</p>
-		<p class="InText">-Job Description: Helped in the creation, modification, and managing of new features for the Budget Ninjas website</p>
-		<br/>
-		<P>Greenville Technical College (2017-2019) - Associates degree in computer science (programming concentration)</p>
-		<p class="InText">-Two-time winner of the President's award and three-time winner of the Dean's list</p>
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Daniel Byrd</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+
+    <script type="module" crossorigin src="/assets/index-Crdu1oYV.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DzMZS5HQ.css">
+  </head>
+  <body>
+    <div id="root"></div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 	
-	</div>
-</div>
-<div class="footer"><p>(864) 363-7021  |  daniel.byrd1999@gmail.com  |  <a href="https://www.linkedin.com/in/daniel-byrd-090004170/">Find me on LinkedIn</a></p></div>
-
-
-<!-- Here begins JavaScript -->
-<script>
-var isActive = true;
-//used to toggle the first column between a visible state and a invisible state
-function toggleNav() {
-	var sideBar = document.getElementById("column1");
-	var navToggle = document.getElementById("NavToggle");
-	var contentPart = document.getElementById("column3");
-	var links = document.getElementById("links");
-	//var navButtons = document.getElementsByClassName("NavButton");
-	if (isActive) {
-		isActive = false;
-		sideBar.style.width = "0px";
-		contentPart.style.width = "98%";
-		setTimeout(hideLinks, 500);
-		//links.style.display = "none";
-	} else {
-		isActive = true;
-		sideBar.style.width = "16%";
-		contentPart.style.width = "82%";
-		links.style.display = "initial";
-	}
-}
-
-function hideLinks() {
-	links.style.display = "none";
-}
-</script>
-<!-- Here ends JavaScript -->
-</body>
+  </body>
 </html>
