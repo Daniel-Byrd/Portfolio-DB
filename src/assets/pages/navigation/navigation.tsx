@@ -10,7 +10,8 @@ function PNavigation() {
     <>
 		<div className="container-fluid px-4 py-5 my-5 text-center">
 			<div className="lc-block d-block mx-auto mb-4">
-				<img className="img-header" src="/images/Profile1.jpg" />
+				<img className="img-header" src="./public/images/Profile1.jpg" />
+				
 			</div>
 
 			<br/>
