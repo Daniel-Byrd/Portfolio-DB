@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.css"
-import {NavLink } from 'react-router-dom';
+import {NavLink, Link} from 'react-router-dom';
 import { Outlet } from 'react-router-dom'
 
 function NavBar() {
@@ -10,7 +10,7 @@ function NavBar() {
 		<nav className="navbar sticky-top navbar-expand-lg navbar-inverse">
 			<div className="container-fluid">
 				<div className="navbar-header">
-					<p className="navbar-text fs-1"><a className="link-underline-dark" href="#">Daniel Byrd</a></p>
+					<p className="navbar-text fs-1"><Link to={"/"} className="link-underline-dark">Daniel Byrd</Link></p>
 				</div>
 				<ul className="nav navbar-nav">
 					<li><p className="navbar-text fs-3 text-light">(864) 363-7021</p></li>

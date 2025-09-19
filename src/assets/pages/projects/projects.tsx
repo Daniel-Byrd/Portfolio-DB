@@ -35,16 +35,16 @@ function PProjects() {
 						<p>That time would come when I finally took the time to learn how React functioned. Seeing how I could make my own components, then re-use them, only having to edit them from one central location was an interesting opportunity I had to take. After quickly making a test site to experiment with the basics, I went ahead and re-made the portfolio to what you see here.</p>
 						<Carousel>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/Portfolio1.png" alt="First slide" />
+								<img className="d-block w-100" src="/images/projects/Portfolio1.png" alt="First slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/Portfolio2.png" alt="Second slide" />
+								<img className="d-block w-100" src="/images/projects/Portfolio2.png" alt="Second slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/Portfolio3.png" alt="Third slide" />
+								<img className="d-block w-100" src="/images/projects/Portfolio3.png" alt="Third slide" />
 							</Carousel.Item>													
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/Portfolio4.png" alt="Fourth slide" />
+								<img className="d-block w-100" src="/images/projects/Portfolio4.png" alt="Fourth slide" />
 							</Carousel.Item>
 						</Carousel>
 					</div>
@@ -76,16 +76,16 @@ function PProjects() {
 						<p>While this is a far more involved process compared to generating an image in MagicaVoxel, the results are far worth it.  You can see some examples of the workflow in the images below.</p>
 						<Carousel>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/TrenchMap1.png" alt="First slide" />
+								<img className="d-block w-100" src="/images/projects/TrenchMap1.png" alt="First slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/TrenchMap2.png" alt="Second slide" />
+								<img className="d-block w-100" src="/images/projects/TrenchMap2.png" alt="Second slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/TrenchMap3.png" alt="Third slide" />
+								<img className="d-block w-100" src="/images/projects/TrenchMap3.png" alt="Third slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/TrenchMap4.png" alt="Fourth slide" />
+								<img className="d-block w-100" src="/images/projects/TrenchMap4.png" alt="Fourth slide" />
 							</Carousel.Item>
 						</Carousel>		
 					</div>
@@ -110,28 +110,28 @@ function PProjects() {
 						<p>I'm eager to see what weird and strange things I could do with this new technology</p>
 						<Carousel>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/FindLAI1.png" alt="First slide" />
+								<img className="d-block w-100" src="/images/projects/FindLAI1.png" alt="First slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/FindLAI2.png" alt="Second slide" />
+								<img className="d-block w-100" src="/images/projects/FindLAI2.png" alt="Second slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/FindLAI3.png" alt="Third slide" />
+								<img className="d-block w-100" src="/images/projects/FindLAI3.png" alt="Third slide" />
 							</Carousel.Item>													
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/FindLAI4.png" alt="Fourth slide" />
+								<img className="d-block w-100" src="/images/projects/FindLAI4.png" alt="Fourth slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/FindLAI5.png" alt="Fith slide" />
+								<img className="d-block w-100" src="/images/projects/FindLAI5.png" alt="Fith slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/FindLAI6.png" alt="Sixth slide" />
+								<img className="d-block w-100" src="/images/projects/FindLAI6.png" alt="Sixth slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/FindLAI7.png" alt="Seventh slide" />
+								<img className="d-block w-100" src="/images/projects/FindLAI7.png" alt="Seventh slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/FindLAI8.png" alt="Eighth slide" />
+								<img className="d-block w-100" src="/images/projects/FindLAI8.png" alt="Eighth slide" />
 							</Carousel.Item>
 						</Carousel>						
 					</div>
@@ -153,16 +153,16 @@ function PProjects() {
 						<p>I also added a system where the CSV file can be changed automatically by uploading and deleting files straight from the site itself and the site is just a single page that reads the needed CSV file depending on which channel you select. The result is a very modular system that allows me to keep track of many links in a neat and organized way.</p>
 						<Carousel>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/TStorage1.png" alt="First slide" />
+								<img className="d-block w-100" src="/images/projects/TStorage1.png" alt="First slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/TStorage2.png" alt="Second slide" />
+								<img className="d-block w-100" src="/images/projects/TStorage2.png" alt="Second slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/TStorage3.png" alt="Third slide" />
+								<img className="d-block w-100" src="/images/projects/TStorage3.png" alt="Third slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/TStorage4.png" alt="Fourth slide" />
+								<img className="d-block w-100" src="/images/projects/TStorage4.png" alt="Fourth slide" />
 							</Carousel.Item>
 						</Carousel>								
 					</div>
@@ -185,22 +185,22 @@ function PProjects() {
 						<p>For now, enjoy these sample images showing the code made so far.</p>
 						<Carousel>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/PySparkProject1.png" alt="First slide" />
+								<img className="d-block w-100" src="/images/projects/PySparkProject1.png" alt="First slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/PySparkProject2.png" alt="Second slide" />
+								<img className="d-block w-100" src="/images/projects/PySparkProject2.png" alt="Second slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/PySparkProject3.png" alt="Third slide" />
+								<img className="d-block w-100" src="/images/projects/PySparkProject3.png" alt="Third slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/PySparkProject4.png" alt="Fourth slide" />
+								<img className="d-block w-100" src="/images/projects/PySparkProject4.png" alt="Fourth slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/PySparkProject5.png" alt="Fith slide" />
+								<img className="d-block w-100" src="/images/projects/PySparkProject5.png" alt="Fith slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/PySparkProject6.png" alt="Sixth slide" />
+								<img className="d-block w-100" src="/images/projects/PySparkProject6.png" alt="Sixth slide" />
 							</Carousel.Item>
 						</Carousel>								
 					</div>
@@ -226,28 +226,28 @@ function PProjects() {
 						<a href="/files/EldenRingWeaponAnalysis.pbix" download>EldenRingWeaponAnalysis.pbix</a>
 						<Carousel>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/ERWA1.png" alt="First slide" />
+								<img className="d-block w-100" src="/images/projects/ERWA1.png" alt="First slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/ERWA2.png" alt="Second slide" />
+								<img className="d-block w-100" src="/images/projects/ERWA2.png" alt="Second slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/ERWA3.png" alt="Third slide" />
+								<img className="d-block w-100" src="/images/projects/ERWA3.png" alt="Third slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/ERWA4.png" alt="Fourth slide" />
+								<img className="d-block w-100" src="/images/projects/ERWA4.png" alt="Fourth slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/ERWA5.png" alt="Fith slide" />
+								<img className="d-block w-100" src="/images/projects/ERWA5.png" alt="Fith slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/ERWA6.png" alt="Sixth slide" />
+								<img className="d-block w-100" src="/images/projects/ERWA6.png" alt="Sixth slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/ERWA7.png" alt="Seventh slide" />
+								<img className="d-block w-100" src="/images/projects/ERWA7.png" alt="Seventh slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/ERWA8.png" alt="Eighth slide" />
+								<img className="d-block w-100" src="/images/projects/ERWA8.png" alt="Eighth slide" />
 							</Carousel.Item>
 						</Carousel>								
 					</div>
@@ -279,16 +279,16 @@ function PProjects() {
 
 						<Carousel>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/TF2MapA1.png" alt="First slide" />
+								<img className="d-block w-100" src="/images/projects/TF2MapA1.png" alt="First slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/TF2MapA2.png" alt="Second slide" />
+								<img className="d-block w-100" src="/images/projects/TF2MapA2.png" alt="Second slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/TF2MapA3.png" alt="Third slide" />
+								<img className="d-block w-100" src="/images/projects/TF2MapA3.png" alt="Third slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/TF2MapA4.png" alt="Fourth slide" />
+								<img className="d-block w-100" src="/images/projects/TF2MapA4.png" alt="Fourth slide" />
 							</Carousel.Item>
 						</Carousel>								
 					</div>
@@ -327,16 +327,16 @@ function PProjects() {
 						<p>During my first weeks with Pomeroy, I had noticed that the main way the team had organized tickets was via text files that would be copy and pasted onto Service Now. Wanting a more efficient way of getting this information organized, I created a website that can allow the user to easily record the needed info, then copy it into a format that would be used for ticket/incident logs. The website also came with a few work note templates that can be used for some of the more common issues the users face. I would later add the storage site to this as well, a means of recording previous incident descriptions (but sadly not saving the work notes that were created).</p>
 						<Carousel>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/PWorkNotes1.png" alt="First slide" />
+								<img className="d-block w-100" src="/images/projects/PWorkNotes1.png" alt="First slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/PWorkNotes2.png" alt="Second slide" />
+								<img className="d-block w-100" src="/images/projects/PWorkNotes2.png" alt="Second slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/PWorkNotes3.png" alt="Third slide" />
+								<img className="d-block w-100" src="/images/projects/PWorkNotes3.png" alt="Third slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/PWorkNotes4.png" alt="Fourth slide" />
+								<img className="d-block w-100" src="/images/projects/PWorkNotes4.png" alt="Fourth slide" />
 							</Carousel.Item>
 						</Carousel>								
 					</div>
@@ -356,16 +356,16 @@ function PProjects() {
 						<p>There are two versions of the Budget Ninjas website: The newer mobile friendly version and the older classic design. While the newer design is mobile friendly it is missing some of the features from the classic page. One such feature was the ability to check the more specific details of expenses and incomes and to even possibly change them or undo said changes. Tools used were Visual Studio 2019 using Telerik controls on classic ASPX pages with C# code behind.</p>
 						<Carousel>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/BudgetP1.png" alt="First slide" />
+								<img className="d-block w-100" src="/images/projects/BudgetP1.png" alt="First slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/BudgetP2.png" alt="Second slide" />
+								<img className="d-block w-100" src="/images/projects/BudgetP2.png" alt="Second slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/BudgetP3.png" alt="Third slide" />
+								<img className="d-block w-100" src="/images/projects/BudgetP3.png" alt="Third slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/BudgetP4.png" alt="Fourth slide" />
+								<img className="d-block w-100" src="/images/projects/BudgetP4.png" alt="Fourth slide" />
 							</Carousel.Item>
 						</Carousel>								
 					</div>
@@ -385,16 +385,16 @@ function PProjects() {
 						<p>This report is designed to take a start date and end date and grab a specific set of columns. Note that the Account ID column has been censored as well to protect possible credentials. This project was completed with both SQL Report Services and Report Builder.</p>
 						<Carousel>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/Report1.png" alt="First slide" />
+								<img className="d-block w-100" src="/images/projects/Report1.png" alt="First slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/Report2.png" alt="Second slide" />
+								<img className="d-block w-100" src="/images/projects/Report2.png" alt="Second slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/Report3.png" alt="Third slide" />
+								<img className="d-block w-100" src="/images/projects/Report3.png" alt="Third slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/Report4.png" alt="Fourth slide" />
+								<img className="d-block w-100" src="/images/projects/Report4.png" alt="Fourth slide" />
 							</Carousel.Item>
 						</Carousel>								
 					</div>
@@ -414,16 +414,16 @@ function PProjects() {
 						<p>This project was rather straight forward. I was given a word document that contained the text of a news story and I was asked to create a new page for it. I was also tasked with creating an entirely new type of page for the mobile site, which would act as a template for further news stories. Tools used were Visual Studio 2019 using Telerik controls on classic ASPX pages.</p>
 						<Carousel>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/News1.png" alt="First slide" />
+								<img className="d-block w-100" src="/images/projects/News1.png" alt="First slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/News2.png" alt="Second slide" />
+								<img className="d-block w-100" src="/images/projects/News2.png" alt="Second slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/News3.png" alt="Third slide" />
+								<img className="d-block w-100" src="/images/projects/News3.png" alt="Third slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/News4.png" alt="Fourth slide" />
+								<img className="d-block w-100" src="/images/projects/News4.png" alt="Fourth slide" />
 							</Carousel.Item>
 						</Carousel>								
 					</div>
@@ -443,16 +443,16 @@ function PProjects() {
 						<p>The final group project I had in college. We were tasked with creating an online bookstore where users could order books. Said orders would need to be logged and tracked as well. This project was done in PHP with a website design done with the help of bootstrap.</p>
 						<Carousel>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/SeniorP1.png" alt="First slide" />
+								<img className="d-block w-100" src="/images/projects/SeniorP1.png" alt="First slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/SeniorP2.png" alt="Second slide" />
+								<img className="d-block w-100" src="/images/projects/SeniorP2.png" alt="Second slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/SeniorP3.png" alt="Third slide" />
+								<img className="d-block w-100" src="/images/projects/SeniorP3.png" alt="Third slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/SeniorP4.png" alt="Fourth slide" />
+								<img className="d-block w-100" src="/images/projects/SeniorP4.png" alt="Fourth slide" />
 							</Carousel.Item>
 						</Carousel>		
 					</div>
@@ -472,16 +472,16 @@ function PProjects() {
 						<p>A group project with the main goal of creating a board game using javaFX. Our group chose checkers due to its simple nature, which would prove helpful considering the other projects that also needed attention to at the time. The core part of the program was formed together from a group members discovery of an already existing javaFX checkers game. This base however, was very incomplete, leaving us to learn to study it, learn how it works, then fix it, and get it working. We used this already existing game as a basis for our own, expanding upon it and adding needed features that were not already present. The end result of this project was a rather plain looking but functional game of checkers. The tool used for this project was jGRASP.</p>
 						<Carousel>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/Checkers1.png" alt="First slide" />
+								<img className="d-block w-100" src="/images/projects/Checkers1.png" alt="First slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/Checkers2.png" alt="Second slide" />
+								<img className="d-block w-100" src="/images/projects/Checkers2.png" alt="Second slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/Checkers3.png" alt="Third slide" />
+								<img className="d-block w-100" src="/images/projects/Checkers3.png" alt="Third slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/Checkers4.png" alt="Fourth slide" />
+								<img className="d-block w-100" src="/images/projects/Checkers4.png" alt="Fourth slide" />
 							</Carousel.Item>
 						</Carousel>	
 					</div>
@@ -501,16 +501,16 @@ function PProjects() {
 						<p>A group project with the main goal of creating an educational game with questions based on the textbook used for systems and procedures. This project was created using Game Maker Studio and the language it includes: GML.</p>
 						<Carousel>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/SysProject1.png" alt="First slide" />
+								<img className="d-block w-100" src="/images/projects/SysProject1.png" alt="First slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/SysProject2.png" alt="Second slide" />
+								<img className="d-block w-100" src="/images/projects/SysProject2.png" alt="Second slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/SysProject3.png" alt="Third slide" />
+								<img className="d-block w-100" src="/images/projects/SysProject3.png" alt="Third slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/SysProject4.png" alt="Fourth slide" />
+								<img className="d-block w-100" src="/images/projects/SysProject4.png" alt="Fourth slide" />
 							</Carousel.Item>
 						</Carousel>							
 					</div>
@@ -530,10 +530,10 @@ function PProjects() {
 						<p>Students at Bonds Career Center are required to enroll into a program known as SkillsUSA. During one of the classes of my animation and photo editing class, we were tasked with coming up with a pin design to submit into the skillsUSA pin design contest. The pin design was to be created in Photoshop. The image shown below depicts my entry into the contest and as it turns out, this entry won the state prize for the pin design.</p>
 						<Carousel>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/skillPin1.png" alt="First slide" />
+								<img className="d-block w-100" src="/images/projects/skillPin1.png" alt="First slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/skillPin2.png" alt="Second slide" />
+								<img className="d-block w-100" src="/images/projects/skillPin2.png" alt="Second slide" />
 							</Carousel.Item>
 						</Carousel>								
 					</div>
@@ -556,16 +556,16 @@ function PProjects() {
 						<p>The game was made in GameMaker Studio, and while I never did get around to properly finishing it, I am still proud of the progress made on it.</p>
 						<Carousel>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/ZG1.png" alt="First slide" />
+								<img className="d-block w-100" src="/images/projects/ZG1.png" alt="First slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/ZG2.png" alt="Second slide" />
+								<img className="d-block w-100" src="/images/projects/ZG2.png" alt="Second slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/ZG3.png" alt="Third slide" />
+								<img className="d-block w-100" src="/images/projects/ZG3.png" alt="Third slide" />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/ZG4.png" alt="Fourth slide" />
+								<img className="d-block w-100" src="/images/projects/ZG4.png" alt="Fourth slide" />
 							</Carousel.Item>
 						</Carousel>								
 					</div>
@@ -585,7 +585,7 @@ function PProjects() {
 						<p>Sample Text</p>
 						<Carousel>
 							<Carousel.Item>
-								<img className="d-block w-100" src="/images/TrenchMap1.png" alt="First slide" />
+								<img className="d-block w-100" src="/images/projects/TrenchMap1.png" alt="First slide" />
 							</Carousel.Item>
 						</Carousel>								
 					</div>
