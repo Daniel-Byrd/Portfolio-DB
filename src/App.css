@@ -1,0 +1,16 @@
+body {
+	background-image: linear-gradient(#0f0f12, #1d1d23);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	min-height: 100%;
+	min-width: 100%;
+	color: white;
+}
+
+/* .bodySection {
+  background-color: #070709;
+  min-width: 100%;
+  margin: 0px;
+  padding-left: 5%;
+  padding-right: 5%;
+} */
